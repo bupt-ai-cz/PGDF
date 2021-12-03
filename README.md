@@ -37,7 +37,7 @@ python train_cifar.py --preset c10.50sym
 for the subsequent training process.
 
 ``c10`` means CIFAR-10, ``50sym`` means 50% symmetric noise.  
-Similarly, if you want to experiment on CIFAR-100 with 20% symmetric noise, you can use the command:
+Similarly, if you want to take experiment on CIFAR-100 with 20% symmetric noise, you can use the command:
 ```bash
 python train_cifar_getPrior.py --preset c100.20sym
 ```
@@ -47,4 +47,4 @@ python train_cifar.py --preset c100.20sym
 ## Additional Info
 The (basic) semi-supervised learning part of our code is borrow from [the official DM-AugDesc implementation](https://github.com/KentoNishi/Augmentation-for-LNL/).
 
-Since this paper is still being submitted, we only release part of the experimental code. We will release all the experimental codes after being accepted.
+Since this paper is still being submitted, we only release part of the experimental code. We will release all the experimental code after being accepted.
