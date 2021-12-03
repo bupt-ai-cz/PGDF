@@ -1,0 +1,91 @@
+{   
+    "alpha": 4,
+    "average_loss": 0,
+    "batch_size": 128,
+    "checkpoint_path": "./checkpoints",
+    "learning_rate": 0.02,
+    "noise_mode": "sym",
+    "num_workers": 16,
+    "preaugment": false,
+    "save_every": 25,
+    "seed": 0,
+    "warmup_aug_probability": 1,
+    "warmup_batch_size": 128,
+    "configs": {
+        "c10": {
+            "dataset": "cifar10",
+            "num_class": 10,
+            "warm_up": 10,
+            "seed": 123456789,
+            "data_path": "../cifar-10/cifar-10-batches-py",
+            "warmup_transform": "transform_weak_10",
+            "configs": {
+                "20sym": {
+                    "r": 0.2,
+                    "lambda_u": 0,
+                    "average_loss": 0,
+                    "num_epochs": 300,
+                    "lr_switch_epoch": 150,
+                    "mt": 2,
+                    "md": 0.5
+                },
+                "50sym": {
+                    "r": 0.5,
+                    "lambda_u": 25,
+                    "average_loss": 0,
+                    "num_epochs": 300,
+                    "lr_switch_epoch": 150,
+                    "mt": 2,
+                    "md": 0.5
+                }
+            },
+            "labeled_transforms": [
+                "transform_strong_10",
+                "transform_strong_10",
+                "transform_weak_10",
+                "transform_weak_10"
+            ],
+            "unlabeled_transforms": [
+                "transform_strong_10",
+                "transform_strong_10",
+                "transform_weak_10",
+                "transform_weak_10"
+            ]
+        },
+        "c100": {
+            "dataset": "cifar100",
+            "num_epochs": 400,
+            "lr_switch_epoch": 300,
+            "num_class": 100,
+            "warm_up": 30,
+            "warmup_transform": "transform_weak_100",
+            "data_path": "../cifar-100/cifar-100-python/",
+            "configs": {
+                "20sym": {
+                    "r": 0.2,
+                    "lambda_u": 25,
+                    "mt": 2,
+                    "md": 0.5
+                },
+                "50sym": {
+                    "r": 0.5,
+                    "lambda_u": 150,
+                    "mt": 2,
+                    "md": 0.5
+                }
+            },
+            "labeled_transforms": [
+                "transform_strong_100",
+                "transform_strong_100",
+                "transform_weak_100",
+                "transform_weak_100"
+            ],
+            "unlabeled_transforms": [
+                "transform_strong_100",
+                "transform_strong_100",
+                "transform_weak_100",
+                "transform_weak_100"
+            ]
+        }
+    }
+}
