@@ -1,5 +1,24 @@
 # PGDF
 
+This repo is the official implementation of our paper ["Sample Prior Guided Robust Model Learning to Suppress Noisy Labels
+"](https://arxiv.org/abs/2112.01197).
+
+## Citation
+If you use this code/data for your research, please cite our paper ["Sample Prior Guided Robust Model Learning to Suppress Noisy Labels
+"](https://arxiv.org/abs/2112.01197).
+
+```
+@misc{chen2021sample,
+      title={Sample Prior Guided Robust Model Learning to Suppress Noisy Labels}, 
+      author={Wenkai Chen and Chuang Zhu and Yi Chen},
+      year={2021},
+      eprint={2112.01197},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+
 ## Training
 Take CIFAR-10 with 50% symmetric noise as an example:
 
