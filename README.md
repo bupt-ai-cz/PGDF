@@ -47,4 +47,4 @@ python train_cifar.py --preset c100.20sym
 ## Additional Info
 The (basic) semi-supervised learning part of our code is borrow from [the official DM-AugDesc implementation](https://github.com/KentoNishi/Augmentation-for-LNL/).
 
-Since this paper is still being submitted, we only release part of the experimental code. We will release all the experimental code after being accepted.
+Since this paper has not yet been submitted, we only release part of the experimental code. We will release all the experimental code after this paper is accepted by a conference.
