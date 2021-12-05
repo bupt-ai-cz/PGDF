@@ -4,7 +4,7 @@ This repo is the official implementation of our paper ["Sample Prior Guided Robu
 "](https://arxiv.org/abs/2112.01197).
 
 ## Citation
-If you use this code/data for your research, please cite our paper ["Sample Prior Guided Robust Model Learning to Suppress Noisy Labels
+If you use this code for your research, please cite our paper ["Sample Prior Guided Robust Model Learning to Suppress Noisy Labels
 "](https://arxiv.org/abs/2112.01197).
 
 ```
