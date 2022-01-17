@@ -45,6 +45,22 @@ python train_cifar_getPrior.py --preset c100.20sym
 ```bash
 python train_cifar.py --preset c100.20sym
 ```
+
+
+
+## Contact
+
+Wenkai Chen
+- email: wkchen@bupt.edu.cn
+- wechat: cwkyiyi
+
+Chuang Zhu
+- email: czhu@bupt.edu.cn
+- homepage: https://teacher.bupt.edu.cn/zhuchuang/zh_CN/index.htm
+
+If you have any question about the code and data, please contact us directly.
+
+
 ## Additional Info
 The (basic) semi-supervised learning part of our code is borrow from [the official DM-AugDesc implementation](https://github.com/KentoNishi/Augmentation-for-LNL/).
 
