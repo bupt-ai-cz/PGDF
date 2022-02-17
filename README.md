@@ -9,10 +9,10 @@ If you use this code for your research, please cite our paper ["Sample Prior Gui
 "](https://arxiv.org/abs/2112.01197).
 
 ```
-@misc{chen2021sample,
+@misc{chen2022sample,
       title={Sample Prior Guided Robust Model Learning to Suppress Noisy Labels}, 
-      author={Wenkai Chen and Chuang Zhu and Yi Chen},
-      year={2021},
+      author={Wenkai Chen and Chuang Zhu and Yi Chen and Mengting Li and Tiejun Huang},
+      year={2022},
       eprint={2112.01197},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
