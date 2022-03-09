@@ -65,4 +65,4 @@ If you have any question about the code and data, please contact us directly.
 ## Additional Info
 The (basic) semi-supervised learning part of our code is borrow from [the official DM-AugDesc implementation](https://github.com/KentoNishi/Augmentation-for-LNL/).
 
-Since this paper has not yet been published, we only release part of the experimental code. We will release all the experimental code after this paper is accepted by a conference.
+Since this paper has not yet been published, we only release part of the experimental code. We will release all the experimental codes after this paper is accepted by a conference.
